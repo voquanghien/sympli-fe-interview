@@ -22,3 +22,13 @@ You are allowed to modify any of the core functionality except `http` utility.
 Please do not call any external API.
 
 ![Expected result](./public/example.png)
+
+**Task List & Note**
+1. Implement the logic to fetch data into the `SwapiPeopleTable` component.
+2. Implement the logic to handle the selection of rows in the table.
+3. Implement the logic to display person details when a row is clicked.
+4. Implement the logic to display the list of films for the selected person.
+5. Implement the logic to handle the case where a film request has failed.
+    - Use `Promise.allSettled` to catch all the returned data then `filter` to ignore the failed requests.
+6. Implement the logic to handle the case where the user clicks on multiple rows when throttling is
+    - Use reducer method `setRequestId` to update the requestId of the newest request for comparison when update data to redux
