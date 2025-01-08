@@ -15,10 +15,11 @@ const App = () => {
   const people = useAppSelector((store) => store.people);
   const films = useAppSelector((store) => store.films);
 
+  // useState
   const [page, setPage] = useState<number>(0);
   const [person, setPerson] = useState<SwapiPerson | undefined>(undefined);
 
-  // TODO implement fetching mechanism, page change and row click logic
+  // implement fetching mechanism, page change and row click logic
   const handlePageChange = (pageNumber: number) => {
     setPage(pageNumber);
     setPerson(undefined); // reset selected person
@@ -29,11 +30,13 @@ const App = () => {
     setPerson(person);
   };
 
+  // useEffect for first load
   useEffect(() => {
     setPerson(undefined); // reset selected person
     dispatch(fetchPeople(0)); // start with page 0
   }, [dispatch]);
 
+  // useEffect for selected person change
   useEffect(() => {
     if (person) {
       dispatch(fetchFilm(person));
@@ -75,7 +78,7 @@ const App = () => {
       </header>
       <Loader status={people.status} error={people.error}>
         {people.data && (
-          /* TODO implement logic to display correct data */
+          /* implement logic to display correct data */
           <SwapiPeopleTable
             //
             selectedRow={person}
@@ -90,6 +93,7 @@ const App = () => {
         )}
       </Loader>
 
+      {/* only show person info if person existed */}
       {person ? (
         <SwapiPersonDetailPaper //
           name={person.name}
@@ -97,7 +101,12 @@ const App = () => {
           gender={person.gender}
           films={
             films?.status === ApiStatus.Resolved
-              ? films?.data?.map((e) => e.title) || []
+              ? // sort film title by alphabet
+                films?.data?.films
+                  ?.map((e) => e.title)
+                  .sort((a, b) =>
+                    a.toLowerCase().localeCompare(b.toLowerCase())
+                  ) || []
               : []
           }
         />

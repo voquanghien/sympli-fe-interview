@@ -9,6 +9,7 @@ import TableRow from "@mui/material/TableRow";
 import TableFooter from "@mui/material/TableFooter";
 import TablePagination from "@mui/material/TablePagination";
 import { SwapiPerson } from "../models/swapi";
+import { comparePerson } from "../utils/utils";
 
 interface SwapiPeopleTableProps {
   /**
@@ -60,11 +61,7 @@ function SwapiPeopleTable({
           {rows.map((row) => (
             <TableRow
               onClick={() => onRowClick(row)}
-              selected={
-                selectedRow?.name === row.name &&
-                selectedRow?.mass === row.mass &&
-                selectedRow?.films === row.films
-              }
+              selected={comparePerson(row, selectedRow)}
               hover={true}
               key={row.name}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}

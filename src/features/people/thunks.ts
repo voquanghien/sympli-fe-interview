@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import { SwapiPeople } from "./models";
 import http from "../../utils/http";
 
-// TODO implement fetchPeople (utilize http utility)
+// implement fetchPeople (utilize http utility)
 export const fetchPeople = createAsyncThunk<
   SwapiPeople,
   number,
