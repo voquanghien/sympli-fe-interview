@@ -1,0 +1,160 @@
+{
+  "count": 32,
+  "next": "/mocks/people/page_3.json",
+  "previous": "/mocks/people/page_1.json",
+  "results": [
+    {
+      "name": "Anakin Skywalker",
+      "height": "188",
+      "mass": "84",
+      "hair_color": "blond",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "41.9BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/4.json",
+        "/mocks/films/5.json",
+        "/mocks/films/6.json"
+      ],
+      "url": "/mocks/people/11.json"
+    },
+    {
+      "name": "Wilhuff Tarkin",
+      "height": "180",
+      "mass": "unknown",
+      "hair_color": "auburn, grey",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "64BBY",
+      "gender": "male",
+      "films": ["/mocks/films/1.json", "/mocks/films/6.json"],
+      "url": "/mocks/people/12.json"
+    },
+    {
+      "name": "Chewbacca",
+      "height": "228",
+      "mass": "112",
+      "hair_color": "brown",
+      "skin_color": "unknown",
+      "eye_color": "blue",
+      "birth_year": "200BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/1.json",
+        "/mocks/films/2.json",
+        "/mocks/films/3.json",
+        "/mocks/films/6.json"
+      ],
+      "url": "/mocks/people/13.json"
+    },
+    {
+      "name": "Han Solo",
+      "height": "180",
+      "mass": "80",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "29BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/1.json",
+        "/mocks/films/2.json",
+        "/mocks/films/3.json"
+      ],
+      "url": "/mocks/people/14.json"
+    },
+    {
+      "name": "Greedo",
+      "height": "173",
+      "mass": "74",
+      "hair_color": "n/a",
+      "skin_color": "green",
+      "eye_color": "black",
+      "birth_year": "44BBY",
+      "gender": "male",
+      "films": ["/mocks/films/1.json"],
+      "url": "/mocks/people/15.json"
+    },
+    {
+      "name": "Jabba Desilijic Tiure",
+      "height": "175",
+      "mass": "1,358",
+      "hair_color": "n/a",
+      "skin_color": "green-tan, brown",
+      "eye_color": "orange",
+      "birth_year": "600BBY",
+      "gender": "hermaphrodite",
+      "films": [
+        "/mocks/films/1.json",
+        "/mocks/films/3.json",
+        "/mocks/films/4.json"
+      ],
+      "url": "/mocks/people/16.json"
+    },
+    {
+      "name": "Wedge Antilles",
+      "height": "170",
+      "mass": "77",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "hazel",
+      "birth_year": "21BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/1.json",
+        "/mocks/films/2.json",
+        "/mocks/films/3.json"
+      ],
+      "url": "/mocks/people/18.json"
+    },
+    {
+      "name": "Jek Tono Porkins",
+      "height": "180",
+      "mass": "110",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "unknown",
+      "gender": "male",
+      "films": ["/mocks/films/1.json"],
+      "url": "/mocks/people/19.json"
+    },
+    {
+      "name": "Yoda",
+      "height": "66",
+      "mass": "17",
+      "hair_color": "white",
+      "skin_color": "green",
+      "eye_color": "brown",
+      "birth_year": "896BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/2.json",
+        "/mocks/films/3.json",
+        "/mocks/films/4.json",
+        "/mocks/films/5.json",
+        "/mocks/films/6.json"
+      ],
+      "url": "/mocks/people/20.json"
+    },
+    {
+      "name": "Palpatine",
+      "height": "170",
+      "mass": "75",
+      "hair_color": "grey",
+      "skin_color": "pale",
+      "eye_color": "yellow",
+      "birth_year": "82BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/2.json",
+        "/mocks/films/3.json",
+        "/mocks/films/4.json",
+        "/mocks/films/5.json",
+        "/mocks/films/6.json"
+      ],
+      "url": "/mocks/people/21.json"
+    }
+  ]
+}

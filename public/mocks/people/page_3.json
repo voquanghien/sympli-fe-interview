@@ -1,0 +1,131 @@
+{
+  "count": 32,
+  "next": "/mocks/people/page_4.json",
+  "previous": "/mocks/people/page_2.json",
+  "results": [
+    {
+      "name": "Boba Fett",
+      "height": "183",
+      "mass": "78.2",
+      "hair_color": "black",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "31.5BBY",
+      "gender": "male",
+      "films": [
+        "/mocks/films/2.json",
+        "/mocks/films/3.json",
+        "/mocks/films/5.json"
+      ],
+      "url": "/mocks/people/22.json"
+    },
+    {
+      "name": "IG-88",
+      "height": "200",
+      "mass": "140",
+      "hair_color": "none",
+      "skin_color": "metal",
+      "eye_color": "red",
+      "birth_year": "15BBY",
+      "gender": "none",
+      "films": ["/mocks/films/2.json"],
+      "url": "/mocks/people/23.json"
+    },
+    {
+      "name": "Bossk",
+      "height": "190",
+      "mass": "113",
+      "hair_color": "none",
+      "skin_color": "green",
+      "eye_color": "red",
+      "birth_year": "53BBY",
+      "gender": "male",
+      "films": ["/mocks/films/2.json"],
+      "url": "/mocks/people/24.json"
+    },
+    {
+      "name": "Lando Calrissian",
+      "height": "177",
+      "mass": "79",
+      "hair_color": "black",
+      "skin_color": "dark",
+      "eye_color": "brown",
+      "birth_year": "31BBY",
+      "gender": "male",
+      "films": ["/mocks/films/2.json", "/mocks/films/3.json"],
+      "url": "/mocks/people/25.json"
+    },
+    {
+      "name": "Lobot",
+      "height": "175",
+      "mass": "79",
+      "hair_color": "none",
+      "skin_color": "light",
+      "eye_color": "blue",
+      "birth_year": "37BBY",
+      "gender": "male",
+      "films": ["/mocks/films/2.json"],
+      "url": "/mocks/people/26.json"
+    },
+    {
+      "name": "Ackbar",
+      "height": "180",
+      "mass": "83",
+      "hair_color": "none",
+      "skin_color": "brown mottle",
+      "eye_color": "orange",
+      "birth_year": "41BBY",
+      "gender": "male",
+      "films": ["/mocks/films/3.json"],
+      "url": "/mocks/people/27.json"
+    },
+    {
+      "name": "Mon Mothma",
+      "height": "150",
+      "mass": "unknown",
+      "hair_color": "auburn",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "48BBY",
+      "gender": "female",
+      "films": ["/mocks/films/3.json"],
+      "url": "/mocks/people/28.json"
+    },
+    {
+      "name": "Arvel Crynyd",
+      "height": "unknown",
+      "mass": "unknown",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "brown",
+      "birth_year": "unknown",
+      "gender": "male",
+      "films": ["/mocks/films/3.json"],
+      "url": "/mocks/people/29.json"
+    },
+    {
+      "name": "Wicket Systri Warrick",
+      "height": "88",
+      "mass": "20",
+      "hair_color": "brown",
+      "skin_color": "brown",
+      "eye_color": "brown",
+      "birth_year": "8BBY",
+      "gender": "male",
+      "films": ["/mocks/films/3.json"],
+      "url": "/mocks/people/30.json"
+    },
+    {
+      "name": "Nien Nunb",
+      "height": "160",
+      "mass": "68",
+      "hair_color": "none",
+      "skin_color": "grey",
+      "eye_color": "black",
+      "birth_year": "unknown",
+      "gender": "male",
+      "films": ["/mocks/films/3.json"],
+      "url": "/mocks/people/31.json"
+    }
+  ]
+}

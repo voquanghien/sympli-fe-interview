@@ -1,0 +1,35 @@
+{
+  "count": 32,
+  "next": null,
+  "previous": "/mocks/people/page_3.json",
+  "results": [
+    {
+      "name": "Qui-Gon Jinn",
+      "height": "193",
+      "mass": "89",
+      "hair_color": "brown",
+      "skin_color": "fair",
+      "eye_color": "blue",
+      "birth_year": "92BBY",
+      "gender": "male",
+      "films": ["/mocks/films/4.json"],
+      "url": "/mocks/people/32.json"
+    },
+    {
+      "name": "Nute Gunray",
+      "height": "191",
+      "mass": "90",
+      "hair_color": "none",
+      "skin_color": "mottled green",
+      "eye_color": "red",
+      "birth_year": "unknown",
+      "gender": "male",
+      "films": [
+        "/mocks/films/4.json",
+        "/mocks/films/5.json",
+        "/mocks/films/6.json"
+      ],
+      "url": "/mocks/people/33.json"
+    }
+  ]
+}
