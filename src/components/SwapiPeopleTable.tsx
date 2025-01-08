@@ -61,7 +61,9 @@ function SwapiPeopleTable({
             <TableRow
               onClick={() => onRowClick(row)}
               selected={
-                false /* TODO replace this with correct logic to highlight selected row */
+                selectedRow?.name === row.name &&
+                selectedRow?.mass === row.mass &&
+                selectedRow?.films === row.films
               }
               hover={true}
               key={row.name}

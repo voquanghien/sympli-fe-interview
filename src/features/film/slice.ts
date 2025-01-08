@@ -23,6 +23,7 @@ const slice = createSlice({
         state.data = action.payload;
       })
       .addCase(fetchFilm.rejected, (state, action) => {
+        state.status = ApiStatus.Rejected;
         state.error = action.payload;
       });
   },

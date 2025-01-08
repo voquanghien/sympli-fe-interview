@@ -5,7 +5,6 @@ import { fetchPeople } from "./thunks";
 
 const initialState: State<SwapiPeople> = {
   status: ApiStatus.Idle,
-
   data: undefined,
   error: undefined,
 };
